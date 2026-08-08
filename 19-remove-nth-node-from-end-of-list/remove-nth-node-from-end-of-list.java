@@ -23,7 +23,7 @@ class Solution {
             return head.next;
         }
         temp=head;
-        for(int i=1;i<=len-n-1;i++){
+        for(int i=1;i<len-n;i++){
             temp=temp.next;
         }
         temp.next=temp.next.next;
